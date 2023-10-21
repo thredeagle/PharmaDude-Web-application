@@ -1,0 +1,127 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Head -->
+<head>
+
+    <title>Login</title>
+
+    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+
+    <!-- google fonts -->
+ <style>
+.form-submit {
+  width: 50%;
+  border-radius: 5px;
+  /*-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;*/
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  border-radius: 24px;
+  outline: none;
+  color: white;
+  /*background-image: -moz-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: -ms-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: -o-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: -webkit-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: linear-gradient(to left, #74ebd5, #9face6);
+*/ }
+ .form-submit:hover{
+  background-color:#2ecc71 ;
+  opacity: 0.7;
+  }
+
+
+  .loginhere {
+
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+
+ </style>
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+
+    <section class="main">
+
+        <div class="bottom-grid">
+            <div class="logo">
+                <h1> <a href="index.html">Login</a></h1>
+            </div>
+        </div>
+        <div class="content-w3ls">
+            <div class="text-center icon">
+                <span class="fa fa-meetup"></span>
+            </div>
+
+            <div class="content-bottom">
+                <form form action="../php/php_login.php" method="POST" id="signup-form" class="signup-form" onsubmit="return validate()">
+                    <div class="field-group">
+                        <span class="fa fa-user" aria-hidden="true"></span>
+                        <div class="wthree-field">
+                            <input name="name" id="name" type="email" value="" placeholder="Username" required>
+                        </div>
+                    </div>
+                    <div class="field-group">
+                        <span class="fa fa-lock" aria-hidden="true"></span>
+                        <div class="wthree-field">
+                            <input name="password" id="password" type="Password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="wthree-field">
+                        <button type="submit" class="form-submit" >Login</button>
+                        
+                    </div>
+                     
+                
+                <p class="loginhere">
+                    <a href="#" style="text-decoration:none;  color:white;" class="loginhere-link">Forgot password?</a>
+                </p>
+
+                <p class="loginhere">
+                    <a href="user.php" style="text-decoration:none;  color:white;" class="loginhere-link">Create new Account</a>
+                </p>
+            </div>
+                </form>
+            </div>
+        </div>
+       
+    </section>
+
+    <script type="text/javascript" src="js/regvalidate.js"></script>
+
+</body>
+<!-- //Body -->
+
+</html>
