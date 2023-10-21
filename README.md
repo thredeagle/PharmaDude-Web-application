@@ -23,4 +23,5 @@ The system allows admin to attach a copy of the report into the system and autom
 **Basic template for the dashboard is available in admin folder assets and components**
 **Bootstrap is used**
 **Demo of payment is created using Razorpay.**
+**Database with sample data Pharmadude.sql**
 
